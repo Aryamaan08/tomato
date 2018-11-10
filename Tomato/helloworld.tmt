@@ -1,0 +1,22 @@
+tomato-begin:
+	println 'Hello World' //You can use double quotes: "Hello World" is also a valid string.
+	var:
+		firstNum
+		5,
+		secondNum
+		10
+	println('5 + 10 = ' + (firstNum + secondNum)) //output = 5 + 10 = 15 (duh)-> it wont actually print that lol
+tomato-end
+/*
+I can actually write comments how cool is that
+So, my thoughts on Tomato is that I wanna make it like JS
+ya know, front-end and back-end
+that's how ya roll
+BTW is there an extension I can make for Tomato files?
+'Coz there could be taken ones
+lemme check...
+/*
+/*
+TMT sounds cool
+rhymes with TNT
+*/

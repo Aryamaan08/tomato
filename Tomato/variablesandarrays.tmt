@@ -1,0 +1,34 @@
+tomato-begin:
+	var:
+		concatenatedString
+		('hello' +  ' ' + 'world')
+	println concatenatedString
+	array:
+		myArray
+		[1, 2, 3, 4, 5],
+		mySecondArray,
+		[6, 7, 8, 9, 10]
+		myThirdArray
+		(myArray + mySecondArray)
+
+	println myThirdArray //Output: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+	array:
+		myCombinedArray
+		[1, 2, 3, 'HELLO!!!']
+	println myCombinedArray:index(int0) //Output: 1
+	println myCombinedArray:index(str(0) //Output: HELLO!!!
+	
+	array:
+		groceryList
+		['eggs', 'brinjals', 'cucumbers', 'capsicum', 'cauliflowers', 'almost all veggies except tomatoes']
+	println groceryList
+	groceryList:remove(5)
+	println groceryList //This would have NO 'almost all veggies except tomatoes'
+	/*
+	I wanted to keep code short otherwise I would've written:
+	println groceryList:remove(5)
+	like last time
+	wait, then why did i write all that last time? idk don't ask me
+	*/
+tomato-end
